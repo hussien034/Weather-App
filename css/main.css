@@ -120,14 +120,14 @@
   }
   
 nav{
-    background-color:tranarent;
+    background-color:rgba(12, 11, 9, 0.6) !important;
 }
 .nav-link{
     font-size: 18px !important;
-    color: black !important;
+    color: white !important;
 }
 .navbar-brand{
-    color: black !important;
+    color: white !important;
     font-size: 35px !important;
     font-weight:500 !important;
 }
@@ -293,7 +293,7 @@ nav{
     border-radius: 25px;
     position: fixed;
     bottom:10px;
-    left:90%;
+    left:85%;
 }
 footer{
     background-color: #374850;
