@@ -160,9 +160,7 @@ nav{
     #home img{
         width:50% !important;
     }
-    .collapse{
-        background-color: #3199ab !important;
-    }
+ 
 }
 @media screen and (min-width:569px) and (max-width:768px){
     #home p{
