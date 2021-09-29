@@ -171,8 +171,13 @@ nav{
     font-weight: 300 !important;
     font-family: 'PT Sans Narrow', sans-serif !important;
 }
-.display-temp .search {width: 32%;}
+.display-temp .search {width:50%;}
+@media screen and (min-width:360px) and (max-width:640px){
+    .display-temp .search{
+        width: 100% !important;
+    }
 
+}
 .display-temp #search-bar {
     padding: 5px 15px;
     border: 1px solid #3199ab;
@@ -279,7 +284,7 @@ nav{
     border-radius: 25px;
     position: fixed;
     bottom:10px;
-    left:85%;
+    left:90%;
 }
 footer{
     background-color: #374850;
