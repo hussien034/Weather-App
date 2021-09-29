@@ -150,7 +150,6 @@ nav{
 @media all and (max-width:568px) {
     #home h1{
         font-size:25px;
-      
     }
     #home p{
         font-size: 14px;
@@ -165,7 +164,17 @@ nav{
         background-color: #3199ab !important;
     }
 }
-
+@media screen and (min-width:569px) and (max-width:768px){
+    #home p{
+        font-size: 14px;
+    }
+    #home{
+        text-align: center;
+    }
+    #home img{
+        width:50% !important;
+    }
+}
 .display-temp{
     padding: 50px !important;
     font-weight: 300 !important;
